@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: thistle; */
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.container h1{
+    font-size: 70px;
+}
+
+.container p{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.container button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: transparent;
+    font-family: 'Palanquin Dark', sans-serif;
+}
